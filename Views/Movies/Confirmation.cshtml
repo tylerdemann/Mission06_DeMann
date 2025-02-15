@@ -1,0 +1,32 @@
+@model Movie
+
+@{
+    ViewData["Title"] = "Confirmation";
+}
+
+<h1>Confirmation</h1>
+
+@if (Model != null)
+{
+    <h2>Thank you for adding a movie!</h2>
+
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">@Model.Title</h5>
+            <p class="card-text"><strong>Category:</strong> @Model.Category</p>
+            <p class="card-text"><strong>Director:</strong> @Model.Director</p>
+            <p class="card-text"><strong>Rating:</strong> @Model.Rating</p>
+
+            @if (!string.IsNullOrEmpty(Model.Notes))
+            {
+                <p class="card-text"><strong>Notes:</strong> @Model.Notes</p>
+            }
+
+            <p class="card-text"><strong>Edited:</strong> @(Model.Edited ? "Yes" : "No")</p>
+        </div>
+    </div>
+}
+else
+{
+    <h2>No movie details were provided.</h2>
+}
