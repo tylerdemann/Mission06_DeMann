@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qh+3FvgJ2gQNHioCFhXMT9HLLfTKkUxqF1OP33TgISw=",
+  "Hash": "cYYOLZONiqHPg6Vo3nlM46hST5sAql2J+tuZX9pxaDc=",
   "Source": "Mission06_DeMann",
   "BasePath": "_content/Mission06_DeMann",
   "Mode": "Default",
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ji54owg1uh",
-      "Integrity": "FTPgpKwGUfKMMgOehhte9uSNObXmNVAh7V43xoWHPJc=",
+      "Fingerprint": "ylirnba2o3",
+      "Integrity": "CsZCu9Z2I0G70NSy4tMh9AapIeYz9WPBcqxOHn81wQQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/JoelHiltonMovieCollection.sqlite"
@@ -3322,51 +3322,6 @@
       ]
     },
     {
-      "Route": "JoelHiltonMovieCollection.ji54owg1uh.sqlite",
-      "AssetFile": "/Users/tyler/RiderProjects/Mission06_DeMann/Mission06_DeMann/wwwroot/JoelHiltonMovieCollection.sqlite",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "49152"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"FTPgpKwGUfKMMgOehhte9uSNObXmNVAh7V43xoWHPJc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 04:16:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ji54owg1uh"
-        },
-        {
-          "Name": "label",
-          "Value": "JoelHiltonMovieCollection.sqlite"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-FTPgpKwGUfKMMgOehhte9uSNObXmNVAh7V43xoWHPJc="
-        }
-      ]
-    },
-    {
       "Route": "JoelHiltonMovieCollection.sqlite",
       "AssetFile": "/Users/tyler/RiderProjects/Mission06_DeMann/Mission06_DeMann/wwwroot/JoelHiltonMovieCollection.sqlite",
       "Selectors": [],
@@ -3377,7 +3332,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "49152"
+          "Value": "57344"
         },
         {
           "Name": "Content-Type",
@@ -3385,11 +3340,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"FTPgpKwGUfKMMgOehhte9uSNObXmNVAh7V43xoWHPJc=\""
+          "Value": "\"CsZCu9Z2I0G70NSy4tMh9AapIeYz9WPBcqxOHn81wQQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 04:16:35 GMT"
+          "Value": "Sat, 22 Feb 2025 06:50:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3399,7 +3354,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-FTPgpKwGUfKMMgOehhte9uSNObXmNVAh7V43xoWHPJc="
+          "Value": "sha256-CsZCu9Z2I0G70NSy4tMh9AapIeYz9WPBcqxOHn81wQQ="
+        }
+      ]
+    },
+    {
+      "Route": "JoelHiltonMovieCollection.ylirnba2o3.sqlite",
+      "AssetFile": "/Users/tyler/RiderProjects/Mission06_DeMann/Mission06_DeMann/wwwroot/JoelHiltonMovieCollection.sqlite",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57344"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CsZCu9Z2I0G70NSy4tMh9AapIeYz9WPBcqxOHn81wQQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 06:50:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ylirnba2o3"
+        },
+        {
+          "Name": "label",
+          "Value": "JoelHiltonMovieCollection.sqlite"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CsZCu9Z2I0G70NSy4tMh9AapIeYz9WPBcqxOHn81wQQ="
         }
       ]
     },
@@ -20496,7 +20496,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 06:01:24 GMT"
+          "Value": "Sat, 22 Feb 2025 06:57:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -20549,7 +20549,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 06:01:24 GMT"
+          "Value": "Sat, 22 Feb 2025 06:57:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -20586,7 +20586,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 06:01:24 GMT"
+          "Value": "Sat, 22 Feb 2025 06:57:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -20633,7 +20633,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 06:01:24 GMT"
+          "Value": "Sat, 22 Feb 2025 06:57:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -20686,7 +20686,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 06:01:24 GMT"
+          "Value": "Sat, 22 Feb 2025 06:57:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -20723,7 +20723,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 06:01:24 GMT"
+          "Value": "Sat, 22 Feb 2025 06:57:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -20770,7 +20770,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 06:01:24 GMT"
+          "Value": "Sat, 22 Feb 2025 06:57:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -20831,7 +20831,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 06:01:24 GMT"
+          "Value": "Sat, 22 Feb 2025 06:57:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -20876,7 +20876,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 06:01:24 GMT"
+          "Value": "Sat, 22 Feb 2025 06:57:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -20931,7 +20931,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 06:01:24 GMT"
+          "Value": "Sat, 22 Feb 2025 06:57:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -20992,7 +20992,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 06:01:24 GMT"
+          "Value": "Sat, 22 Feb 2025 06:57:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21037,7 +21037,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 06:01:24 GMT"
+          "Value": "Sat, 22 Feb 2025 06:57:52 GMT"
         },
         {
           "Name": "Cache-Control",

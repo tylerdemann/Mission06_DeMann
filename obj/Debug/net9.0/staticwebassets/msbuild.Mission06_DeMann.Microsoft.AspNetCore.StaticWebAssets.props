@@ -66,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ji54owg1uh</Fingerprint>
-      <Integrity>FTPgpKwGUfKMMgOehhte9uSNObXmNVAh7V43xoWHPJc=</Integrity>
+      <Fingerprint>ylirnba2o3</Fingerprint>
+      <Integrity>CsZCu9Z2I0G70NSy4tMh9AapIeYz9WPBcqxOHn81wQQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\JoelHiltonMovieCollection.sqlite'))</OriginalItemSpec>

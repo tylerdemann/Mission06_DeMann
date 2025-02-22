@@ -1,26 +1,36 @@
-using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Mission06_DeMann.Models
 {
     public class Movie
     {
+        [Key]
         public int MovieId { get; set; }
 
-        // Required Fields
+        [Required]
         public string Title { get; set; }
+
+        [Required]
         public int Year { get; set; }
 
-        // Non-nullable fields (must have a default value)
-        public bool Edited { get; set; } = false;  // Default value set to false
-        public bool CopiedToPlex { get; set; } = false;  // Default value set to false
+        public string? Director { get; set; }
 
-        // Additional fields (optional)
-        public string Director { get; set; }
-        public string Rating { get; set; }
-        public string Category { get; set; }
-        public string LentTo { get; set; }
-        public string Notes { get; set; }
+        [Required]
+        public bool Edited { get; set; }
+
+        [Required]
+        public bool CopiedToPlex { get; set; }
+
+        public string? Notes { get; set; }
+
+        // Add the Rating property (it could be a string or a decimal, depending on your needs)
+        public string? Rating { get; set; }
+
+        // Add the LentTo property (string to track the person it is lent to)
+        public string? LentTo { get; set; }
+
+        public int CategoryId { get; set; }
+        public Category Category { get; set; }
     }
-
 }

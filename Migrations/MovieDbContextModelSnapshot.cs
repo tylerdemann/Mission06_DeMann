@@ -18,13 +18,16 @@ namespace Mission06_DeMann.Migrations
 
             modelBuilder.Entity("Mission06_DeMann.Models.Movie", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("MovieId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Category")
                         .IsRequired()
                         .HasColumnType("TEXT");
+
+                    b.Property<bool>("CopiedToPlex")
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("Director")
                         .IsRequired()
@@ -34,10 +37,11 @@ namespace Mission06_DeMann.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("LentTo")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Notes")
-                        .HasMaxLength(25)
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Rating")
@@ -51,7 +55,7 @@ namespace Mission06_DeMann.Migrations
                     b.Property<int>("Year")
                         .HasColumnType("INTEGER");
 
-                    b.HasKey("Id");
+                    b.HasKey("MovieId");
 
                     b.ToTable("Movies");
                 });
