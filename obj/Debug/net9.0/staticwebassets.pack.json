@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets/Images/JoelHilton.jpg"
     },
     {
+      "Id": "/Users/tyler/RiderProjects/Mission06_DeMann/Mission06_DeMann/wwwroot/JoelHiltonMovieCollection.sqlite",
+      "PackagePath": "staticwebassets/JoelHiltonMovieCollection.sqlite"
+    },
+    {
       "Id": "/Users/tyler/RiderProjects/Mission06_DeMann/Mission06_DeMann/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },

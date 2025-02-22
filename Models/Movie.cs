@@ -1,32 +1,26 @@
+using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace Mission06_DeMann.Models
 {
     public class Movie
     {
-        public int Id { get; set; }
+        public int MovieId { get; set; }
 
-        [Required]
-        public string Title { get; set; } = string.Empty;
+        // Required Fields
+        public string Title { get; set; }
+        public int Year { get; set; }
 
-        [Required]
-        public string Category { get; set; } = string.Empty;
+        // Non-nullable fields (must have a default value)
+        public bool Edited { get; set; } = false;  // Default value set to false
+        public bool CopiedToPlex { get; set; } = false;  // Default value set to false
 
-        [Required]
-        [Range(1888, 2099, ErrorMessage = "Please enter a valid year.")]
-        public int Year { get; set; } // Added Year field
-
-        [Required]
-        public string Director { get; set; } = string.Empty;
-
-        [Required]
-        public string Rating { get; set; } = string.Empty;
-
-        [MaxLength(25)]
-        public string? Notes { get; set; } // Nullable
-
-        public bool Edited { get; set; } = false;
-
-        public string? LentTo { get; set; } // Nullable
+        // Additional fields (optional)
+        public string Director { get; set; }
+        public string Rating { get; set; }
+        public string Category { get; set; }
+        public string LentTo { get; set; }
+        public string Notes { get; set; }
     }
+
 }

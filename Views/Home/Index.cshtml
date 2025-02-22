@@ -6,3 +6,14 @@
     <h1 class="display-4">The Joel Hilton Film Collection</h1>
     <img src="~/images/JoelHilton.jpg" class="img-fluid" alt="Joel Hilton"/>
 </div>
+
+<div>
+    <!-- Button to navigate to Add Movie page -->
+    <a href="@Url.Action("AddMovie", "Movies")" class="btn btn-primary">Add New Movie</a>
+
+    <!-- Button to navigate to Movies List page -->
+    <a href="@Url.Action("MoviesList", "Movies")" class="btn btn-secondary">View Movies List</a>
+</div>
+
+<!-- Welcome message -->
+<p>Welcome to the Joel Hilton Film Collection! Add new movies or view your collection.</p>
