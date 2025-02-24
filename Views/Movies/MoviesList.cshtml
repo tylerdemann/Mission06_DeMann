@@ -1,0 +1,44 @@
+@model List<Mission06_DeMann.Models.Movie>
+
+@{
+    ViewData["Title"] = "Movies List";
+}
+
+<h1>Movies List</h1>
+
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th>Title</th>
+        <th>Category</th>
+        <th>Year</th>
+        <th>Director</th>
+        <th>Rating</th>
+        <th>Lent To</th>
+        <th>Copied to Plex</th>
+        <th>Edited</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var movie in Model)
+    {
+        <tr>
+            <td>@movie.Title</td>
+            <td>@(movie.Category != null ? movie.Category.CategoryName : "None")</td>
+            <td>@movie.Year</td>
+            <td>@movie.Director</td>
+            <td>@movie.Rating</td>
+            <td>@movie.LentTo</td>
+            <td>@(movie.CopiedToPlex ? "Yes" : "No")</td>
+            <td>@(movie.Edited ? "Yes" : "No")</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@movie.MovieId" class="btn btn-warning btn-sm">Edit</a>
+                <a asp-action="Delete" asp-route-id="@movie.MovieId" class="btn btn-danger btn-sm">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<a asp-action="AddMovie" class="btn btn-success">Add New Movie</a>

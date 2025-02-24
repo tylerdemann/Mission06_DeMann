@@ -206,3 +206,4 @@
 /Users/tyler/RiderProjects/Mission06_DeMann/Mission06_DeMann/obj/Debug/net9.0/Mission06_DeMann.pdb
 /Users/tyler/RiderProjects/Mission06_DeMann/Mission06_DeMann/obj/Debug/net9.0/Mission06_DeMann.genruntimeconfig.cache
 /Users/tyler/RiderProjects/Mission06_DeMann/Mission06_DeMann/obj/Debug/net9.0/ref/Mission06_DeMann.dll
+/Users/tyler/RiderProjects/Mission06_DeMann/Mission06_DeMann/obj/Debug/net9.0/Mission06_DeMann.sourcelink.json
