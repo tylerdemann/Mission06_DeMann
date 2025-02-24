@@ -1,32 +1,33 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Mission06_DeMann.Models
 {
     public class Movie
     {
-        public int Id { get; set; }
+        [Key]
+        public int MovieId { get; set; }
 
         [Required]
-        public string Title { get; set; } = string.Empty;
+        public string Title { get; set; }
 
         [Required]
-        public string Category { get; set; } = string.Empty;
+        public int Year { get; set; }
 
-        [Required]
-        [Range(1888, 2099, ErrorMessage = "Please enter a valid year.")]
-        public int Year { get; set; } // Added Year field
+        // Make Director, Rating, LentTo, and Notes nullable to accommodate null values in the DB
+        public string? Director { get; set; } 
+        public int? CategoryId { get; set; }
+        public Category? Category { get; set; } // Foreign key navigation property (nullable)
 
-        [Required]
-        public string Director { get; set; } = string.Empty;
-
-        [Required]
-        public string Rating { get; set; } = string.Empty;
-
-        [MaxLength(25)]
-        public string? Notes { get; set; } // Nullable
-
-        public bool Edited { get; set; } = false;
-
+        public string? Rating { get; set; } // Nullable
         public string? LentTo { get; set; } // Nullable
+
+        [Required]
+        public bool CopiedToPlex { get; set; }
+
+        [Required]
+        public bool Edited { get; set; }
+
+        public string? Notes { get; set; } // Nullable
     }
 }

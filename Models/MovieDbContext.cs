@@ -7,5 +7,6 @@ namespace Mission06_DeMann.Models
         public MovieDbContext(DbContextOptions<MovieDbContext> options) : base(options) { }
 
         public DbSet<Movie> Movies { get; set; }
+        public DbSet<Category> Categories { get; set; } // Add this line
     }
 }
